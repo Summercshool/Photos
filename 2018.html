@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photos 2018</title>
+    <link rel="stylesheet" href="photos.css" />
+    <script
+      src="https://kit.fontawesome.com/b0068ee212.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="full-img" id="fullImgBox">
+      <img src="images_photos/img1.jpg" id="fullImg" />
+      <span class="fa-solid fa-x" onclick="closeFullImg()"></span>
+    </div>
+    <div class="img-gallery">
+      <img src="images_photos/img1.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img2.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img3.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img4.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img5.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img6.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img7.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img8.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img9.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img10.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img11.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img12.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img13.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img14.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img15.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img16.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img17.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img18.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img19.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img20.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img21.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img22.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img23.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img24.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img25.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img26.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img27.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img28.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img29.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img30.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img31.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img32.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img33.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img34.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img35.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img36.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img37.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img38.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img39.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img40.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img41.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img42.jpg" onclick="openFullImg(this.src)" />
+      <img src="images_photos/img43.jpg" onclick="openFullImg(this.src)" />
+    </div>
+    <script>
+      var fullImgBox = document.getElementById("fullImgBox");
+      var fullImg = document.getElementById("fullImg");
+
+      function openFullImg(pic) {
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+      }
+
+      function closeFullImg() {
+        fullImgBox.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
